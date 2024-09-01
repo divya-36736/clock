@@ -1,0 +1,41 @@
+h1 {
+    margin-left:33vw;
+}
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    height: 40vh;
+    width: 40vh;
+    background: url(pngwing.com.png), no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    height: 10vh;
+    width: 1.2vh;
+    margin-top:26%;
+    margin-left:48.23%;
+    opacity: 0.8;
+    
+}
+#minute{
+    height: 14vh;
+    width: 1.1vh;
+    margin-top:16%;
+    margin-left:48.4%;
+    opacity: 0.8;
+    
+}
+#second{
+    height: 16vh;
+    width: 0.6vh;
+    margin-top:11%;
+    margin-left:48.9%;
+    opacity: 0.8;
+    
+}
